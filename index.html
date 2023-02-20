@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calculator">
+    <div id="display">
+      <div id="expression"></div>
+      <div id="result">
+        <img src="./assets/equals.svg" alt="Sinal de Igual">
+        <span>0</span>
+      </div>
+    </div>
+    <div id="keyboard">
+      <button id="cancelEntry" class="secondary">CE</button>
+      <button id="clear">C</button>
+      <button id="%">
+        <img src="./assets/percent.svg" alt="sinal de porcentagem">
+      </button> 
+
+      <button id="/" class="tertiary">
+        <img src="./assets/divide.svg" alt="sinal de dividir">
+      </button>
+      <button id="7">7</button>
+      <button id="8">8</button>
+      <button id="9">9</button>
+      <button id="*" class="tertiary">
+        <img src="./assets/x.svg" alt="sinal de multiplicação">
+      </button>
+      <button id="4">4</button>
+      <button id="5">5</button>
+      <button id="6">6</button>
+      <button id="-" class="tertiary">
+        <img src="./assets/minus.svg" alt="sinal de menos">
+      </button>
+      <button id="1">1</button>
+      <button id="2">2</button>
+      <button id="3">3</button>
+      <button id="+" class="tertiary">
+        <img src="./assets/plus.svg" alt="sinal de mais">
+      </button>
+      <button id="negate">
+        <img src="./assets/plusminus.svg" alt="sinal de mais e menos">
+      </button>
+      <button id="0">0</button>
+      <button id=",">,</button>
+
+      <button id="=" class="quartiary">
+        <img src="./assets/result.svg" alt="sinal de igual">
+      </button>
+
+      <script type="module" src="./js/main.js"></script>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
